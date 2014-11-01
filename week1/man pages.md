@@ -1,0 +1,1 @@
+ls --color=auto tai tilanteesta riippuen ls -alF --color=auto
