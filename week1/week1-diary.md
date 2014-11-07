@@ -9,7 +9,7 @@ alias o='ls -latr'
 ```
 
 ### New ls alias
-ls --color=auto tai tilanteesta riippuen ls -alF --color=auto
+ls --color=auto tai tilanteesta riippuen ls -latr --color=auto
 
 ### Ukko ls stuff
 ##### Login session
