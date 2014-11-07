@@ -1,10 +1,12 @@
 # Week 1 - Diary
 
 ### Ukko alias
+```
 alias irc='ssh melkki -t screen -dr'
 alias ls='ls --color=auto'
 alias manh='man --html=chromium-browser'
 alias o='ls -latr'
+```
 
 ### New ls alias
 ls --color=auto tai tilanteesta riippuen ls -alF --color=auto
