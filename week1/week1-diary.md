@@ -56,14 +56,16 @@ Windows
 ```
 
 ### Shared Home Directories
->jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi
+```
+jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi
 Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.2.0-60-generic x86_64)
 
->jajojajo@ukko160:~$ cat linuxFu/hostname.txt 
+jajojajo@ukko160:~$ cat linuxFu/hostname.txt 
 melkki
 
->jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi "hostname > ~/linuxFu/hostname.txt ; cat linuxFu/hostname.txt"
+jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi "hostname > ~/linuxFu/hostname.txt ; cat linuxFu/hostname.txt"
 ukko160
+```
 
 ### RSYNC
 ##### rsync into populated folder
