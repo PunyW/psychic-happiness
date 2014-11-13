@@ -1,13 +1,15 @@
 # Week 1 - Diary
 
 ### Ukko alias
+```
 alias irc='ssh melkki -t screen -dr'
 alias ls='ls --color=auto'
 alias manh='man --html=chromium-browser'
 alias o='ls -latr'
+```
 
 ### New ls alias
-ls --color=auto tai tilanteesta riippuen ls -alF --color=auto
+ls --color=auto tai tilanteesta riippuen ls -latr --color=auto
 
 ### Ukko ls stuff
 ##### Login session
@@ -56,14 +58,16 @@ Windows
 ```
 
 ### Shared Home Directories
->jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi
+```
+jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi
 Welcome to Ubuntu 12.04.5 LTS (GNU/Linux 3.2.0-60-generic x86_64)
 
->jajojajo@ukko160:~$ cat linuxFu/hostname.txt 
+jajojajo@ukko160:~$ cat linuxFu/hostname.txt 
 melkki
 
->jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi "hostname > ~/linuxFu/hostname.txt ; cat linuxFu/hostname.txt"
+jajojajo@melkki:~$ ssh ukko160.hpc.cs.helsinki.fi "hostname > ~/linuxFu/hostname.txt ; cat linuxFu/hostname.txt"
 ukko160
+```
 
 ### RSYNC
 ##### rsync into populated folder
