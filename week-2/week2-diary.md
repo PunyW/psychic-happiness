@@ -136,7 +136,8 @@ within second shell (pid 9569): $foo=
 #!/bin/bash
 # Execute at given hostname a given command
 
-ssh $1 $2
+result=$(ssh $1 $2)
+echo Host $1 returned: $result
 ```
 ```
 puny@puny:~/scripts$ ./remote-invocation.sh jajojajo@melkki.cs.helsinki.fi "uptime"
