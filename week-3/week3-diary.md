@@ -13,3 +13,14 @@ tar cf - *sh | gzip -9 > scripts-pipe-gz.tar.gz
 
 tar cf - *sh | lbzip2 > scripts-pipe-bzip2.tar.bz2
 ```
+
+Using laptop ext4
+
+### Fetch and Extract
+
+```
+lbzip2 -dc lost24-monitor-temps-and-fans-v2.tar.bz2 | tar -xf -
+```
+### No more disk space
+
+
