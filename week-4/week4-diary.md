@@ -70,7 +70,7 @@ puny@puny:~/Documents/linuxFun/psychic-happiness/scripts$ ./daily-maximums-redux
 [...]
 ```
 ### Fast draws with *GNUPLOT*
-
+![alt text](https://github.com/PunyW/psychic-happiness/blob/master/week-4/max-daily-temps.jpg "Max Temps")
 
 ### Winter is coming
 ```
@@ -92,7 +92,7 @@ echo $filename " " $min_value " °C"
 ```
 
 ### I didn't see that one coming
-
+![alt text](https://github.com/PunyW/psychic-happiness/blob/master/week-4/daily-temps.jpg "Max-Min Temps")
 
 ### And that's a wrap
 ```
