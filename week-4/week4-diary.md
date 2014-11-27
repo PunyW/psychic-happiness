@@ -35,7 +35,7 @@ puny@puny:~/Documents/linuxFun/psychic-happiness/scripts$ ./hottest-day.sh ~/los
 /home/puny/lost24/monitor/2012.04.25/10:55/hp-temps.txt   54 °C
 ```
 
-### ...In TSH format
+### ...In TSV format
 ```
 #!/bin/bash
 # Convert the given line into TSV-format
