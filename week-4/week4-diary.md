@@ -111,10 +111,10 @@ Arguments:
 }
 
 while getopts ":htcwp:" opt; do
-        case $opt in
-                h)
-                        print_help
-                        ;;
+  case $opt in
+    h)
+      print_help
+      ;;
     p)
       dir=$OPTARG
       ;;
@@ -127,7 +127,7 @@ while getopts ":htcwp:" opt; do
     t)
       output="./in-tsv-format.sh"
       ;;
-        esac
+  esac
 done
 
 if [[ "$output" != "" ]]; then
