@@ -10,7 +10,8 @@ while read -r file temp; do
         max_value=$temp
     	file=${file##$1}
         echo "NEW MAX: " $temp "C " $file
-    elif [ $min_value -gt $temp ]; then
+    fi
+    if [ $min_value -gt $temp ]; then
         min_value=$temp
 	file=${file##$1}
         echo "NEW MIN: " $temp "C " $file
