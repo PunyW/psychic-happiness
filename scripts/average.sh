@@ -10,4 +10,4 @@ do
     shift
 done
 
-bc $sum/$numargs
+echo "scale=2; " $sum "/" $numargs | bc

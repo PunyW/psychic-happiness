@@ -8,7 +8,6 @@ set format x "%d.%m."
 set xdata time
 set key left
 set terminal postscript eps colour enhanced
-set output "daily-temps.jpg"
+set output "max-daily-temps.jpg"
 set title "Daily maximum temperatures of processor zone on host lost24"
-plot "max-daily-temps.tsv" using 1:3 title 'CPU MAX' with linespoints, \
-     "min-daily-temps.tsv" using 1:3 title 'CPU MIN' with linespoints
+plot "max-daily-temps.tsv" using 1:3 title 'CPU MAX' with linespoints
