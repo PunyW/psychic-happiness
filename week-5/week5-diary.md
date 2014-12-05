@@ -77,15 +77,6 @@ while read -r path filename; do
 done < <(inotifywait -m -e moved_to -e create ~/Desktop/hipstafy-dropbox) | sed -e 's/CREATE//g' -e 's/MOVED_TO//g'
 ```
 
-```
-#!/bin/bash
-# Hipstafy the given image
-
-file=$*
-prefix=${file%.*}
-outputfile=$prefix-hipstah.jpg
-convert -sepia-tone 60% +polaroid ../"$file" "$outputfile"
-```
 ![alt text](https://raw.githubusercontent.com/PunyW/psychic-happiness/master/week-5/hipstafied.jpg?token=AEVgeXL7tI81kbpLNzx2DsSGZOScZTFQks5UialHwA%3D%3D "Laituri")
 
 ### The task
